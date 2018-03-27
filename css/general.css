@@ -55,3 +55,8 @@ h1 > a:visited {text-decoration: none; outline: none;
 .full-row, .full-column {
   height: 90%;
 }
+
+.row > button {
+  margin-left: auto;
+  margin-right: auto;
+}
