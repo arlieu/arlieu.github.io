@@ -10,11 +10,11 @@ html, body {
   background-color: #EAEAEA;
 }
 
-.section-link, a, a:link, a:hover, a:click, a:visited{
-  border:none;
-  outline:none;
-  text-decoration:none;
-  color:inherit;
+.section-link, a, a:active, a:link, a:hover, a:click, a:visited{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 #about-title {
