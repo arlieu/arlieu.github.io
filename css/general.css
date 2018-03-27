@@ -19,29 +19,29 @@ h1 > a:visited {text-decoration: none; outline: none;
   background-color: transparent; color: inherit;}
 
 #about-section {
-  color: #ec1b5a
+  background-color: #ec1b5a
 }
 
 #work-experience-section {
-  color: #79aefe;
+  background-color: #79aefe;
 }
 
 #project-section {
-  color: #314190;
+  background-color: #314190;
 }
 
 #skills-section {
-  color: #279636;
+  background-color: #279636;
 }
 
 #education-section {
-  color: #7d5d81;
+  background-color: #7d5d81;
 }
 
 #contact-section {
-  color: #ead24c;
+  background-color: #ead24c;
 }
 
 #resume-section {
-  color: #2d2366;
+  background-color: #2d2366;
 }
