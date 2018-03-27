@@ -10,8 +10,7 @@ html, body {
   background-color: #EAEAEA;
 }
 
-a.section-link,a.section-link:hover,a.section-link:click,
-a.section-link:visited{
+a,a:hover,a:click,a:visited{
   border:none;
   outline:none;
   text-decoration:none;
