@@ -2,6 +2,5 @@ html, body {
   height: 100%;
 }
 .section-wrapper {
-  height: 100%;
-  color: green;
+  height: 100vh;
 }
