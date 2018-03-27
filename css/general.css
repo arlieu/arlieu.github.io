@@ -10,7 +10,7 @@ html, body {
   background-color: #EAEAEA;
 }
 
-.section-link, a, a:active, a:link, a:hover, a:click, a:visited{
+a, a:active, a:link, a:hover, a:click, a:visited {
   border: none !important;
   outline: none !important;
   text-decoration: none !important;
