@@ -1,6 +1,39 @@
 html, body {
   height: 100%;
 }
+
 .section-wrapper {
   height: 100vh;
+}
+
+.even-section {
+  background-color: #E4DBBF;
+}
+
+#about-title {
+  color: #ec1b5a
+}
+
+#work-experience-title {
+  color: #79aefe;
+}
+
+#project-title {
+  color: #314190;
+}
+
+#skills-title {
+  color: #279636;
+}
+
+#education-title {
+  color: #7d5d81;
+}
+
+#contact-title {
+  color: #ead24c;
+}
+
+#resume-title {
+  color: #2d2366;
 }
