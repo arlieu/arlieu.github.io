@@ -18,30 +18,30 @@ h1 > a:focus,
 h1 > a:visited {text-decoration: none; outline: none;
   background-color: transparent; color: inherit;}
 
-#about-section {
-  background-color: #ec1b5a
+#about-title {
+  color: #ec1b5a
 }
 
-#work-experience-section {
-  background-color: #79aefe;
+#work-experience-title {
+  color: #79aefe;
 }
 
-#project-section {
-  background-color: #314190;
+#project-title {
+  color: #314190;
 }
 
-#skills-section {
-  background-color: #279636;
+#skills-title {
+  color: #279636;
 }
 
-#education-section {
-  background-color: #7d5d81;
+#education-title {
+  color: #7d5d81;
 }
 
-#contact-section {
-  background-color: #ead24c;
+#contact-title {
+  color: #ead24c;
 }
 
-#resume-section {
-  background-color: #2d2366;
+#resume-title {
+  color: #2d2366;
 }
