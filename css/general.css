@@ -10,12 +10,12 @@ html, body {
   background-color: #EAEAEA;
 }
 
-a, a:active, a:link, a:hover, a:click, a:visited {
-  border: none !important;
-  outline: none !important;
-  text-decoration: none !important;
-  color: inherit !important;
-}
+h1 > a,
+h1 > a:active,
+h1 > a:hover,
+h1 > a:focus,
+h1 > a:visited {text-decoration: none; outline: none; 
+  background-color: transparent; color: inherit;}
 
 #about-title {
   color: #ec1b5a
