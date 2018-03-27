@@ -7,10 +7,10 @@ html, body {
 }
 
 .even-section {
-  background-color: #2d2366;
+  background-color: ##EAEAEA;
 }
 
-h1 > a {
+a.section-link {
   text-decoration: none;
 }
 
