@@ -7,11 +7,15 @@ html, body {
 }
 
 .even-section {
-  background-color: ##EAEAEA;
+  background-color: #EAEAEA;
 }
 
-a.section-link {
-  text-decoration: none;
+a.section-link,a.section-link:hover,a.section-link:click,
+a.section-link:visited{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
 }
 
 #about-title {
