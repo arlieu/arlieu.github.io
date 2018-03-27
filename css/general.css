@@ -45,3 +45,9 @@ h1 > a:visited {text-decoration: none; outline: none;
 #resume-title {
   color: #2d2366;
 }
+
+#resume-pdf {
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+}
