@@ -56,7 +56,7 @@ h1 > a:visited {text-decoration: none; outline: none;
   height: 90%;
 }
 
-.row > button {
+.modal-btn {
   margin-left: auto;
   margin-right: auto;
 }
