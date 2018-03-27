@@ -53,9 +53,16 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 .full-row, .full-column {
   height: 90%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .modal-btn {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#resume-container {
+  margin-bottom: -30px;
 }
