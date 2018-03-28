@@ -143,6 +143,7 @@ h1 > a:visited {text-decoration: none; outline: none;
 .box {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
   background-color: #FFFFFF;
+  border: #d2781e 3px solid;
 }
 
 .box-title {
@@ -154,6 +155,9 @@ h1 > a:visited {text-decoration: none; outline: none;
   font-size: 18px;
   color: #000099;
   display: block;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-top: 0px;
 }
 
 .title-col {
