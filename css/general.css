@@ -147,10 +147,17 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 .box-title {
   font-size: 24px;
+  color: #d2781e;
 }
 
 .box-sub-title {
   font-size: 18px;
+  color: # 000099;
+}
+
+.title-col {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .sub-title-col {
