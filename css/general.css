@@ -139,3 +139,12 @@ h1 > a:visited {text-decoration: none; outline: none;
     font-size: large;
   }
 }
+
+.box {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  background-color: #FFFFFF;
+}
+
+.box-title {
+  font-size: 24px;
+}
