@@ -96,10 +96,12 @@ h1 > a:visited {text-decoration: none; outline: none;
 }
 
 .icon-with-text {
-  float: left;
+  display: inline;
 }
 
 .text-with-icon {
+  margin-left: 10px;
+  display: inline;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
