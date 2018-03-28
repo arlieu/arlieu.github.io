@@ -69,6 +69,7 @@ h1 > a:visited {text-decoration: none; outline: none;
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 100%;
 }
 
 .form-button {
@@ -92,4 +93,14 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 #resume-container {
   margin-bottom: -30px;
+}
+
+.icon-with-text {
+  float: left;
+}
+
+.text-with-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
