@@ -12,7 +12,9 @@ html, body {
   background-color: #EAEAEA;
 }
 
-.section-link {
+.section-title {
+  font-size: 48px;
+  font-weight: 400px;
   margin-bottom: 20px;
 }
 
