@@ -147,12 +147,10 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 .box-title {
   font-size: 24px;
-  color: #d2781e;
 }
 
 .box-sub-title {
   font-size: 18px;
-  color: #000099;
   display: block;
   margin-top: 5px;
   margin-bottom: 30px;
@@ -173,4 +171,16 @@ h1 > a:visited {text-decoration: none; outline: none;
 .box-content {
   font-size: 18px;
   padding-bottom: 10px;
+}
+
+#uva-title {
+  color: #d2781e;
+}
+
+#uva-text {
+  color: #000099;
+}
+
+.skills-box {
+  background-color: #e6ffff;
 }
