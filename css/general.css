@@ -186,3 +186,8 @@ h1 > a:visited {text-decoration: none; outline: none;
 .skills-box {
   background-color: #e6ffff;
 }
+
+.skill-icon {
+  top: 50%;
+  transform: translateY(-50%);
+}
