@@ -143,6 +143,8 @@ h1 > a:visited {text-decoration: none; outline: none;
 .box {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
   background-color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom:10px;
 }
 
 .box-title {
