@@ -63,8 +63,8 @@ h1 > a:visited {text-decoration: none; outline: none;
   margin-right:auto;
 }
 
-.full-row, .full-column {
-  height: 90%;
+.full-row {
+  height: 100vh;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
