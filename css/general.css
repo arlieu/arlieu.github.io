@@ -172,4 +172,5 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 .box-content {
   font-size: 18px;
+  padding-bottom: 10px;
 }
