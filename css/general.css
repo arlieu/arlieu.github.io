@@ -191,3 +191,8 @@ h1 > a:visited {text-decoration: none; outline: none;
   margin: auto;
   display: block;
 }
+
+.skill-container {
+  display: flex;
+  align-items: center;
+}
