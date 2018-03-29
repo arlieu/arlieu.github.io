@@ -188,6 +188,4 @@ h1 > a:visited {text-decoration: none; outline: none;
 }
 
 .skill-icon {
-  top: 50%;
-  transform: translateY(-50%);
 }
