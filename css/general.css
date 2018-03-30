@@ -195,4 +195,10 @@ h1 > a:visited {text-decoration: none; outline: none;
 .skill-container {
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#typescript-icon, #python-icon {
+  padding-top: 10px;
 }
