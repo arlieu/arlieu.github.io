@@ -206,10 +206,10 @@ h1 > a:visited {text-decoration: none; outline: none;
 }
 
 #asp-net-mvc-icon {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-#php-icon, #typescript-icon #django-icon {
+#php-icon, #typescript-icon, #django-icon {
   padding-top: 20px;
 }
 
