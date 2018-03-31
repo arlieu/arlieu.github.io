@@ -206,29 +206,29 @@ h1 > a:visited {text-decoration: none; outline: none;
 }
 
 #asp-net-icon {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #php-icon, #typescript-icon, #django-icon {
   padding-top: 20px;
 }
 
-#python-icon, #j-unit-icon {
+#python-icon {
   padding-top: 15px;
 }
 
-#angular-4-icon {
-  padding-bottom: 10px;
-}
-
 #spring-boot-icon {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 #jasmine-icon {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #n-unit-icon {
   padding-top: 10px;
+}
+
+#j-unit-icon {
+  padding-top: 20px;
 }
