@@ -205,8 +205,8 @@ h1 > a:visited {text-decoration: none; outline: none;
   margin-bottom: 20px;
 }
 
-#asp-net-mvc-icon {
-  padding-bottom: 20px;
+#asp-net-icon {
+  padding-bottom: 10px;
 }
 
 #php-icon, #typescript-icon, #django-icon {
@@ -219,4 +219,16 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 #angular-4-icon {
   padding-bottom: 10px;
+}
+
+#spring-boot-icon {
+  padding-top: 10px;
+}
+
+#jasmine-icon {
+  padding-top: 10px;
+}
+
+#n-unit-icon {
+  padding-top: 10px;
 }
