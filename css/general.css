@@ -15,7 +15,7 @@ body {
 }
 
 .even-section {
-  background-color: #d79922;
+  background-color: #c5cbe3;
 }
 
 .section-title {
@@ -177,6 +177,19 @@ h1>a:visited {
   padding-top: 0px;
 }
 
+.box-date {
+  font-size: 18px;
+}
+
+.box-body {
+  margin-bottom: 15px;
+}
+
+.job-title {
+  font-style: italic;
+  margin-top: 0px;
+}
+
 .title-col {
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -191,6 +204,22 @@ h1>a:visited {
 .box-content {
   font-size: 18px;
   padding-bottom: 10px;
+}
+
+#capital-one-main {
+  color: #004879;
+}
+
+#capital-one-sub {
+  color: #d22e1e;
+}
+
+#fidelity-main {
+  color: #006044;
+}
+
+#fidelity-sub {
+  color: #AF8A49;
 }
 
 #uva-title {
