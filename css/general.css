@@ -167,7 +167,6 @@ h1>a:visited {
 
 .box-title {
   font-size: 30px;
-  font-weight: bold;
 }
 
 .box-sub-title {
@@ -185,6 +184,11 @@ h1>a:visited {
 
 .box-body {
   margin-bottom: 15px;
+}
+
+.company-title {
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .job-title {
