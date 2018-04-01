@@ -232,3 +232,23 @@ h1 > a:visited {text-decoration: none; outline: none;
 #j-unit-icon {
   padding-top: 20px;
 }
+
+#postgres-icon {
+  padding-top: 15px;
+}
+
+#sql-server-icon {
+  padding-top: 5px;
+}
+
+#windows-icon {
+  padding-top: 15px;
+}
+
+#debian-icon {
+  padding-top: 5px;
+}
+
+#jira-icon {
+  padding-top: 10px;
+}
