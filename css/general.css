@@ -235,6 +235,20 @@ h1>a:visited {
   color: #000099;
 }
 
+#dcl-logistics-sub {
+  color: #488BC5;
+}
+
+.skill-logo {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .skills-box {
   background-color: #ffffff;
 }
