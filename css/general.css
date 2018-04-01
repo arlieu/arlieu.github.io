@@ -158,6 +158,12 @@ h1>a:visited {
   }
 }
 
+.equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
 .box {
   box-shadow: 2px 0px 1px rgba(0, 0, 0, .2), -2px 0px 1px rgba(0, 0, 0, .2), 0px 2px 1px rgba(0, 0, 0, .2), 0px -2px 1px rgba(0, 0, 0, .2);
   background-color: #FFFFFF;
