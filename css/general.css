@@ -1,34 +1,44 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
-.section-wrapper, .section-wrapper > div {
+.section-wrapper,
+.section-wrapper>div {
   height: 100%;
   min-height: 100vh;
   width: 100vw;
 }
 
+.odd-section {
+  background-color: #efe2ba;
+}
+
 .even-section {
-  background-color: #EAEAEA;
+  background-color: #ddc16e;
 }
 
 .section-title {
   font-size: 48px;
   font-weight: 400px;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .custom-clearfix {
   margin-bottom: 20px;
 }
 
-h1 > a,
-h1 > a:active,
-h1 > a:hover,
-h1 > a:focus,
-h1 > a:visited {text-decoration: none; outline: none;
-  background-color: transparent; color: inherit;}
+h1>a,
+h1>a:active,
+h1>a:hover,
+h1>a:focus,
+h1>a:visited {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
 
 #about-title {
   color: #ec1b5a
@@ -60,10 +70,11 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 #resume-pdf {
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-.full-row, .full-column {
+.full-row,
+.full-column {
   height: 100vh;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -75,22 +86,25 @@ h1 > a:visited {text-decoration: none; outline: none;
 
 @media(min-width: 768px) {
   .form-area {
-    background-color: #f5f5f0;
+    background-color: #ffffff;
     border-left: 5px #3498db solid;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 10px;
     height: 75vh;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
   }
 }
+
 @media(max-width: 767px) {
   .form-area {
-    background-color: #f5f5f0;
+    background-color: #ffffff;
     border-left: 5px #3498db solid;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 10px;
     height: 100%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
   }
 }
 
@@ -148,7 +162,7 @@ h1 > a:visited {text-decoration: none; outline: none;
   box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
   background-color: #FFFFFF;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .box-title {
@@ -188,7 +202,7 @@ h1 > a:visited {text-decoration: none; outline: none;
 }
 
 .skills-box {
-  background-color: #e6ffff;
+  background-color: #ffffff;
 }
 
 .skill-icon {
@@ -213,7 +227,9 @@ h1 > a:visited {text-decoration: none; outline: none;
   padding-bottom: 5px;
 }
 
-#php-icon, #typescript-icon, #django-icon {
+#php-icon,
+#typescript-icon,
+#django-icon {
   padding-top: 20px;
 }
 
