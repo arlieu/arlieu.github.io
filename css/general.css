@@ -15,7 +15,7 @@ body {
 }
 
 .even-section {
-  background-color: #ddc16e;
+  background-color: #d79922;
 }
 
 .section-title {
@@ -92,7 +92,7 @@ h1>a:visited {
     padding-top: 20px;
     padding-bottom: 10px;
     height: 75vh;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
   }
 }
 
@@ -104,7 +104,7 @@ h1>a:visited {
     padding-top: 20px;
     padding-bottom: 10px;
     height: 100%;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
   }
 }
 
@@ -159,7 +159,7 @@ h1>a:visited {
 }
 
 .box {
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
   background-color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 10px;
