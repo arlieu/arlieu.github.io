@@ -241,6 +241,8 @@ h1>a:visited {
 
 .skill-logo {
   object-fit: contain;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .skills-box {
