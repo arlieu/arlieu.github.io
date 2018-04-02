@@ -245,7 +245,12 @@ h1>a:visited {
   color: #488BC5;
 }
 
+.skill-title {
+  margin-bottom:
+}
+
 .logo-container {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
