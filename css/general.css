@@ -257,3 +257,13 @@ h1>a:visited {
 .skill-label {
   text-align: center;
 }
+
+#education-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#education-logo-col {
+  margin-top: auto;
+  margin-bottom: auto;
+}
