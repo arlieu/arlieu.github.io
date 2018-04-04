@@ -68,16 +68,9 @@ h1>a:visited {
   color: #2d2366;
 }
 
-#resume-pdf {
+#resume-button {
   margin-left: auto;
   margin-right: auto;
-}
-
-.full-row,
-.full-column {
-  height: 100vh;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 
 .extra-space {
@@ -113,8 +106,10 @@ h1>a:visited {
   text-align: left;
 }
 
-.right-box {
-  margin-left: 10px;
+@media(min-width: 768) {
+  .right-box {
+    margin-left: 10px;
+  }
 }
 
 .modal-btn {
