@@ -245,3 +245,7 @@ h1>a:visited {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.box-body>p {
+  overflow-wrap: break-word;
+}
