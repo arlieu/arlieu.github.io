@@ -89,8 +89,17 @@ h1>a:visited {
   border-left: 5px #3498db solid;
 }
 
-.form-content {
-  padding: 10px;
+.connect-row {
+  margin-top: 20px;
+}
+
+.contact-box-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-label {
+  float: left;
 }
 
 .right-box {
