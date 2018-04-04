@@ -94,12 +94,13 @@ h1>a:visited {
 }
 
 .contact-box-content {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
 .social-label {
   float: left;
+  margin-left: 0px;
 }
 
 .right-box {
