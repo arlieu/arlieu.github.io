@@ -89,6 +89,14 @@ h1>a:visited {
   border-left: 5px #3498db solid;
 }
 
+.form-content {
+  padding: 10px;
+}
+
+.right-box {
+  margin-left: 10px;
+}
+
 .modal-btn {
   margin-left: auto;
   margin-right: auto;

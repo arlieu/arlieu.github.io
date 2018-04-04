@@ -563,7 +563,7 @@
             </div>
             <div class="row">
               <div class="col-sm-5 col-sm-offset-2 col-xs-8 col-xs-offset-2 box form-box">
-                <form>
+                <form class="form-content">
                   <div class="form-row">
                     <div class="form-group col-sm-6 col-xs-12">
                       <label for="first-name">First Name</label>
@@ -589,84 +589,83 @@
                   <div class="form-row">
                     <div class="form-group col-xs-12">
                       <label for="message">Message</label>
-                      <input type="textarea" class="form-control" id="message" rows="5">
+                      <textarea class="form-control" id="message" rows="5"></div>
                     </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-xs-12">
-                      <button class="btn btn-primary" type="submit">Submit</button>
+                    <div class="form-row">
+                      <div class="form-group col-xs-12">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                      </div>
                     </div>
+                  </form>
+                </div>
+                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2 box right-box .equal-height">
+                  <div class="row">
+                    <a href="github.com/arlieu" target="_blank">
+                      <div class="col-xs-4">
+                        <img class="skill-logo" src="content/github.png">
+                      </div>
+                      <div class="col-xs-8">
+                        <h4 class="skill-label">github.com/arlieu</h4>
+                      </div>
+                    </a>
                   </div>
-                </form>
+                  <div class="row">
+                    <a href="linkedin.com/in/avery-lieu" target="_blank">
+                      <div class="col-xs-4">
+                        <img class="skill-logo" src="content/linkedin.png">
+                      </div>
+                      <div class="col-xs-8">
+                        <h4 class="skill-label">linkedin.com/in/avery-lieu</h4>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="row">
+                    <a href="mailto:avelieu@gmail.com" target="_blank">
+                      <div class="col-xs-4">
+                        <img class="skill-logo" src="content/email.png">
+                      </div>
+                      <div class="col-xs-8">
+                        <h4 class="skill-label">avelieu@gmail.com</h4>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-4 col-xs-8 col-xs-offset-2 box">
-                <div class="row">
-                  <a href="github.com/arlieu" target="_blank">
-                    <div class="col-xs-12">
-                      <img src="content/github.png">
-                    </div>
-                    <div class="col-xs-12">
-                      <h4 class="skill-label">github.com/arlieu</h4>
-                    </div>
-                  </a>
+            </div>
+          </div>
+
+          <div id="resume-section" class="section-wrapper even-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <h1 id="resume-title" class="section-title">
+                    <a name="resume" href="#resume" class="section-link">Resume</a>
+                  </h1>
                 </div>
-                <div class="row">
-                  <a href="linkedin.com/in/avery-lieu" target="_blank">
-                    <div class="col-xs-12">
-                      <img src="content/linkedin.png">
-                    </div>
-                    <div class="col-xs-12">
-                      <h4 class="skill-label">linkedin.com/in/avery-lieu</h4>
-                    </div>
-                  </a>
-                </div>
-                <div class="row">
-                  <a href="mailto:avelieu@gmail.com" target="_blank">
-                    <div class="col-xs-12">
-                      <img src="content/email.png">
-                    </div>
-                    <div class="col-xs-12">
-                      <h4 class="skill-label">avelieu@gmail.com</h4>
-                    </div>
-                  </a>
+              </div>
+              <div class="row full-row">
+                <div id="resume-container" class="col-sm-8 col-sm-offset-2 full-column">
+                  <embed src="content/ResumeAveryLieu.pdf" width="100%" height="80%" id="resume-pdf"/>
+                  <div class="col-sm-2 col-sm-offset-5">
+                    <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary modal-btn">
+                      Full View
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div id="resume-section" class="section-wrapper even-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <h1 id="resume-title" class="section-title">
-                  <a name="resume" href="#resume" class="section-link">Resume</a>
-                </h1>
-              </div>
-            </div>
-            <div class="row full-row">
-              <div id="resume-container" class="col-sm-8 col-sm-offset-2 full-column">
-                <embed src="content/ResumeAveryLieu.pdf" width="100%" height="80%" id="resume-pdf"/>
-                <div class="col-sm-2 col-sm-offset-5">
-                  <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary modal-btn">
-                    Full View
-                  </button>
-                </div>
-              </div>
-            </div>
+        <!-- /#page-content-wrapper -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <embed src="content/ResumeAveryLieu.pdf" width="100%" height="600px;" id="resume-pdf"/>
           </div>
         </div>
       </div>
-      <!-- /#page-content-wrapper -->
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <embed src="content/ResumeAveryLieu.pdf" width="100%" height="600px;" id="resume-pdf"/>
-        </div>
-      </div>
-    </div>
-    <!-- /#wrapper -->
-    <script src="js/sidebar.js"></script>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-  </body>
+      <!-- /#wrapper -->
+      <script src="js/sidebar.js"></script>
+      <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    </body>
 
-</html>
+  </html>
