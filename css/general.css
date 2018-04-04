@@ -206,8 +206,8 @@ h1>a:visited {
   color: #488BC5;
 }
 
-.skill-title {
-  margin-bottom:
+.highlight-text-title {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .logo-container {
