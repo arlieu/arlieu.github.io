@@ -72,7 +72,8 @@ h1>a:visited {
   height: 75vh;
 }
 
-#resume-button {
+#resume-button-container {
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -237,4 +238,9 @@ h1>a:visited {
 #education-logo-col {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.iframe-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
