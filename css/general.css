@@ -84,34 +84,9 @@ h1>a:visited {
   margin-bottom: 50px;
 }
 
-@media(min-width: 768px) {
-  .form-area {
-    background-color: #ffffff;
-    border-left: 5px #3498db solid;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 75vh;
-    box-shadow: 2px 0px 1px rgba(0, 0, 0, .2), -2px 0px 1px rgba(0, 0, 0, .2), 0px 2px 1px rgba(0, 0, 0, .2), 0px -2px 1px rgba(0, 0, 0, .2);
-  }
-}
-
-@media(max-width: 767px) {
-  .form-area {
-    background-color: #ffffff;
-    border-left: 5px #3498db solid;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 100%;
-    box-shadow: 2px 0px 1px rgba(0, 0, 0, .2), -2px 0px 1px rgba(0, 0, 0, .2), 0px 2px 1px rgba(0, 0, 0, .2), 0px -2px 1px rgba(0, 0, 0, .2);
-  }
-}
-
-.form-button {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.form-box {
+  background-color: #ffffff;
+  border-left: 5px #3498db solid;
 }
 
 .modal-btn {
