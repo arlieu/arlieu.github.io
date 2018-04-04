@@ -208,6 +208,7 @@ h1>a:visited {
 
 .highlight-text-title {
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
 }
 
 .logo-container {
