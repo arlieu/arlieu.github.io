@@ -266,6 +266,7 @@ h1>a:visited {
   border: 0;
 }
 
-.connect-panel {
+#connect-panel {
   background-color: #3498db;
+  text-align: center;
 }
