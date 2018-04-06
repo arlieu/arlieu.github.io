@@ -110,6 +110,7 @@ h1>a:visited {
 
 .social-label {
   text-align: left;
+  font-size: 16px;
 }
 
 @media(min-width: 768px) {
@@ -267,5 +268,7 @@ h1>a:visited {
 }
 
 #connect-body {
-  background-color: #DCDCDC;
+  background-color: #E8E8E8;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
