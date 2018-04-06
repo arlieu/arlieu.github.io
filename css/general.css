@@ -259,6 +259,7 @@ h1>a:visited {
 .box-title>blockquote {
   margin-top: 20px;
   margin-bottom: 10px;
+  background-color: #F5F5F5;
 }
 
 .box-divider {
