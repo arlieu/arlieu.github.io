@@ -144,10 +144,6 @@ h1>a:visited {
   text-align: center;
 }
 
-#resume-container {
-  margin-bottom: -30px;
-}
-
 .equal-height {
   display: flex;
   display: -webkit-flex;
@@ -288,4 +284,8 @@ h1>a:visited {
 #connect-body {
   background-color: #E8E8E8;
   padding-bottom: 10px;
+}
+
+.resume-box {
+  padding-top: 30px;
 }
