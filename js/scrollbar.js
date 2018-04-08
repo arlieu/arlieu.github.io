@@ -6,6 +6,6 @@ $(document).ready(function() {
     fitToSection: true,
     loopBottom: true,
     loopTop: true,
-    anchors: ['main', 'work-experience']
+    anchors: ['page1', 'page2', 'page3']
   });
 });
