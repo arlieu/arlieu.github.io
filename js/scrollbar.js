@@ -5,6 +5,5 @@ $(document).ready(function() {
     anchors: ['front', 'about', 'work-experience', 'projects', 'skills', 'education', 'contact', 'resume'],
     loopBottom: true,
     loopTop: true,
-
   });
 });
