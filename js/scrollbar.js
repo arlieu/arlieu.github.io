@@ -1,11 +1,10 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-    scrollBar: true,
-    scrollingSpeed: 700,
-    autoScrolling: true,
-    fitToSection: true,
+    menu: #menu,
+    lockAnchors: false,
+    anchors: ['front', 'about', 'work-experience', 'projects', 'skills', 'education', 'contact', 'resume'],
     loopBottom: true,
     loopTop: true,
-    anchors: ['page1', 'page2', 'page3']
+
   });
 });
