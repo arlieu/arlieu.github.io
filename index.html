@@ -71,13 +71,13 @@
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
-    <div id="page-content-wrapper fullpage">
+    <div id="fullpage page-content-wrapper">
       <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
         <span class="hamb-top"></span>
         <span class="hamb-middle"></span>
         <span class="hamb-bottom"></span>
       </button>
-      <div id="main" class="section-wrapper odd-section section">
+      <div id="main" class="section section-wrapper odd-section">
         <div class="container">
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
@@ -88,7 +88,7 @@
           </div>
         </div>
       </div>
-      <div id="about" class="section-wrapper even-section section">
+      <div id="about" class="section section-wrapper even-section">
         <div class="container">
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
@@ -112,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div id="work-experience" class="section-wrapper odd-section section">
+      <div id="work-experience" class="section section-wrapper odd-section">
         <div class="container">
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
@@ -216,7 +216,7 @@
             <div class="col-sm-8 col-sm-offset-2 extra-space"></div>
           </div>
         </div>
-        <div id="projects" class="section-wrapper even-section section">
+        <div id="projects" class="section section-wrapper even-section">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -249,7 +249,7 @@
             </div>
           </div>
         </div>
-        <div id="skills" class="section-wrapper odd-section section">
+        <div id="skills" class="section section-wrapper odd-section">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -569,7 +569,7 @@
             </div>
           </div>
         </div>
-        <div id="education" class="section-wrapper even-section section">
+        <div id="education" class="section section-wrapper even-section">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -600,7 +600,7 @@
             </div>
           </div>
         </div>
-        <div id="contact" class="section-wrapper odd-section section">
+        <div id="contact" class="section section-wrapper odd-section">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -691,7 +691,7 @@
           </div>
         </div>
 
-        <div id="resume" class="section-wrapper even-section section">
+        <div id="resume" class="section section-wrapper even-section">
           <div class="container">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2">
@@ -724,7 +724,11 @@
       </div>
     </div>
     <!-- /#wrapper -->
-    <script src="js/scrollbar.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#fullpage').fullpage({loopBottom: true, loopTop: true});
+      });
+    </script>
     <script src="js/sidebar.js"></script>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
   </body>
