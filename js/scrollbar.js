@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
     menu: '#menu',
     lockAnchors: false,
-    anchors: ['front', 'about', 'work-experience', 'projects', 'skills', 'education', 'contact', 'resume'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'lastPage'],
     loopBottom: true,
     loopTop: true,
   });
