@@ -611,36 +611,37 @@
               </div>
               <div class="row">
                 <div class="col-sm-5 col-sm-offset-2 col-xs-8 col-xs-offset-2 box form-box">
-                  <form class="contact-box-content">
+                  <form class="contact-box-content" action="https://formspree.io/avelieu@gmail.com">
                     <div class="form-row">
                       <div class="form-group col-sm-6 col-xs-12">
                         <label for="first-name">First Name</label>
-                        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                        <input name="first-name" type="text" class="form-control" id="first-name" placeholder="First Name">
                       </div>
                       <div class="form-group col-sm-6 col-xs-12">
                         <label for="last-name">Last Name</label>
-                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                        <input name="last-name" type="text" class="form-control" id="last-name" placeholder="Last Name">
                       </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-xs-12">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@example.com">
+                        <input name="_replyto" type="email" class="form-control" id="email" placeholder="example@example.com">
                       </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-xs-12">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        <input name="_subject" type="text" class="form-control" id="subject" placeholder="Subject">
                       </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-xs-12">
                         <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
+                        <textarea name="message" class="form-control" id="message" rows="5"></textarea>
                       </div>
                       <div class="form-row">
                         <div class="form-group col-xs-12">
+                          <input id="spam-trap" type="text" name="_gotcha">
                           <button class="btn btn-primary" type="submit">Submit</button>
                         </div>
                       </div>
