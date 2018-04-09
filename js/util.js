@@ -1,8 +1,8 @@
 $('.skill-logo').hover(
   function() {
-    $(this).animate({'width': '85%'}, 1000).fadeTo(1000, .4);
+    $(this).animate({ opacity: .4, width: '85%' }, 300);
   },
   function() {
-    $(this).animate({'width': '75%', }, 1000).fadeTo(1000, 1);
+    $(this).animate({ opacity: 1, width: '75%' }, 300);
   }
 );
