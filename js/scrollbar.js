@@ -5,7 +5,6 @@ $(document).ready(function() {
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'lastPage'],
     loopBottom: true,
     loopTop: true,
-		fitToSection: false,
-		scrolloverflow: true
+		scrollOverflow: true
   });
 });
