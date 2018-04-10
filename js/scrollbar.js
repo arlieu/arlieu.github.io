@@ -6,6 +6,7 @@ $(document).ready(function() {
     loopBottom: true,
     loopTop: true,
 		verticalCentered: false,
-		scrollOverflow: true
+		scrollOverflow: true,
+		normalScrollElements: '.modal', '.iframe-container'
   });
 });
