@@ -7,6 +7,6 @@ $(document).ready(function() {
     loopTop: true,
 		verticalCentered: false,
 		scrollOverflow: true,
-		normalScrollElements: '.modal', '.iframe-container'
+		normalScrollElements: '.modal, .iframe-container'
   });
 });
