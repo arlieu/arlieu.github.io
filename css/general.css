@@ -290,3 +290,7 @@ h1>a:visited {
     clear: both;
   }
 }
+
+.center-slide {
+  transform: translate(0%, 25%);
+}
