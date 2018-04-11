@@ -290,3 +290,7 @@ h1>a:visited {
     clear: both;
   }
 }
+
+.box-bullet {
+  font-size: 18px;
+}
