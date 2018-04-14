@@ -295,6 +295,9 @@ h1>a:visited {
     display: block;
     clear: both;
   }
+  .present-large {
+    display: none;
+  }
 }
 
 .box-bullet {
