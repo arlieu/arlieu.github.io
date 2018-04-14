@@ -91,6 +91,10 @@ h1>a:visited {
   text-align: center;
 }
 
+.title-row {
+  width: 100%;
+}
+
 .extra-space {
   margin-bottom: 50px;
 }
