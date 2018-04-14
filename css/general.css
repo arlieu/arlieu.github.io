@@ -119,6 +119,12 @@ h1>a:visited {
   }
 }
 
+@@media(max-width: 767px) {
+  .right-box {
+    margin-left: 0px;
+  }
+}
+
 .modal-btn {
   margin-left: auto;
   margin-right: auto;
