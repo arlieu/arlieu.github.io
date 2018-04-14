@@ -125,6 +125,9 @@ h1>a:visited {
     margin-right: auto;
     display: block;
   }
+  .box-bullet {
+    font-size: 14px;
+  }
 }
 
 @media(max-width: 991px) {
@@ -239,7 +242,8 @@ h1>a:visited {
   justify-content: center;
 }
 
-.skill-logo {
+.skill-logo,
+.education-logo {
   object-fit: contain;
   max-width: 75%;
   min-width: 75%;
@@ -314,6 +318,10 @@ h1>a:visited {
   .skill-logo {
     max-width: 50%;
     min-width: 50%;
+  }
+  .education-logo {
+    max-width: 100%;
+    min-width: 100%;
   }
 }
 
