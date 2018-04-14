@@ -298,6 +298,10 @@ h1>a:visited {
   .present-large {
     display: none;
   }
+  .skill-logo {
+    max-width: 50%;
+    min-width: 50%;
+  }
 }
 
 .box-bullet {
