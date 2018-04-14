@@ -18,6 +18,11 @@ body {
   background-color: #c5cbe3;
 }
 
+.front-title {
+  font-size: 96px;
+  font-family: 'Arvo', serif;
+}
+
 .section-title {
   font-size: 48px;
   font-weight: 400px;
@@ -76,6 +81,13 @@ h1>a:visited {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
