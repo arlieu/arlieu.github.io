@@ -38,45 +38,27 @@
         }, {
           id: 3,
           group: 'workExperience',
-          label: 'Work Experience',
-          color: {
-            background: '#79aefe'
-          }
+          label: 'Work Experience'
         }, {
           id: 4,
           group: 'projects',
-          label: 'Projects',
-          color: {
-            background: '#314190'
-          }
+          label: 'Projects'
         }, {
           id: 5,
           group: 'skills',
-          label: 'Skills & Certificates',
-          color: {
-            background: '#279636'
-          }
+          label: 'Skills & Certificates'
         }, {
           id: 6,
           group: 'education',
-          label: 'Education',
-          color: {
-            background: '#7d5d81'
-          }
+          label: 'Education'
         }, {
           id: 7,
           group: 'contact',
-          label: 'Contact',
-          color: {
-            background: '#ead24c'
-          }
+          label: 'Contact'
         }, {
           id: 8,
           group: 'resume',
-          label: 'Resume',
-          color: {
-            background: '#2d2366'
-          }
+          label: 'Resume'
         }
       ]);
 
@@ -117,9 +99,52 @@
 
       var groups = []
       var options = {
+        groups: {
+          avery: {
+            color: {
+              background: 'transparent'
+            }
+          },
+          about: {
+            color: {
+              background: '#ec1b5a'
+            }
+          },
+          workExperience: {
+            color: {
+              background: '#79aefe'
+            }
+          },
+          projects: {
+            color: {
+              background: '#314190'
+            }
+          },
+          skills: {
+            color: {
+              background: '#279636'
+            }
+          },
+          education: {
+            color: {
+              background: '#7d5d81'
+            }
+          },
+          contact: {
+            color: {
+              background: '#ead24c'
+            }
+          },
+          resume: {
+            color: {
+              background: '#2d2366'
+            }
+          }
+        },
         autoResize: true,
         height: '100%',
-        width: '100%' locale: 'en',
+        width: '100%',
+        locale: 'en',
         locales: locales,
         clickToUse: true
       };
