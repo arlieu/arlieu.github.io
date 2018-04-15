@@ -8,9 +8,10 @@
 
     <style type="text/css">
       #mynetwork {
-        width: 600px;
-        height: 400px;
-        border: 1px solid lightgray;
+        width: 100vw;
+        height: 110vh;
+        border: 0;
+        background-color: #efe2ba;
       }
     </style>
   </head>
@@ -22,27 +23,35 @@
       var nodes = new vis.DataSet([
         {
           id: 1,
+          group: 'avery',
           label: 'Avery Lieu'
         }, {
           id: 2,
+          group: 'about',
           label: 'About'
         }, {
           id: 3,
+          group: 'work-experience',
           label: 'Work Experience'
         }, {
           id: 4,
+          group: 'projects',
           label: 'Projects'
         }, {
           id: 5,
+          group: 'skills',
           label: 'Skills & Certificates'
         }, {
           id: 6,
+          group: 'education',
           label: 'Education'
         }, {
           id: 7,
+          group: 'contact',
           label: 'Contact'
         }, {
           id: 8,
+          group: 'resume',
           label: 'Resume'
         }
       ]);
@@ -81,7 +90,55 @@
         nodes: nodes,
         edges: edges
       };
-      var options = {};
+      var options = {
+        groups: {
+          avery: {
+            color: {
+              background: 'transparent'
+            }
+          },
+          about: {
+            color: {
+              background: '#ec1b5a'
+            }
+          },
+          work - experience: {
+            color: {
+              background: '#79aefe'
+            }
+          },
+          projects: {
+            color: {
+              background: '#314190'
+            }
+          },
+          skills: {
+            color: {
+              background: '#279636'
+            }
+          },
+          education: {
+            color: {
+              background: '#7d5d81'
+            }
+          },
+          contact: {
+            color: {
+              background: '#ead24c'
+            }
+          },
+          resume: {
+            color: {
+              background: '#2d2366'
+            }
+          }
+        },
+        autoResize: true,
+        height: '100%',
+        width: '100%' locale: 'en',
+        locales: locales,
+        clickToUse: true
+      };
 
       // initialize your network!
       var network = new vis.Network(container, data, options);
