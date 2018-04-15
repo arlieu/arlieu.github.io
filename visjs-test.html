@@ -26,11 +26,11 @@
         {
           id: 1,
           group: 'avery',
-          label: '     Avery Lieu      '
+          label: '      Avery Lieu       '
         }, {
           id: 2,
           group: 'about',
-          label: '        About        '
+          label: '         About         '
         }, {
           id: 3,
           group: 'workExperience',
@@ -38,7 +38,7 @@
         }, {
           id: 4,
           group: 'projects',
-          label: '      Projects       '
+          label: '       Projects        '
         }, {
           id: 5,
           group: 'skills',
@@ -46,15 +46,15 @@
         }, {
           id: 6,
           group: 'education',
-          label: '      Education      '
+          label: '       Education       '
         }, {
           id: 7,
           group: 'contact',
-          label: '       Contact       '
+          label: '        Contact        '
         }, {
           id: 8,
           group: 'resume',
-          label: '       Resume        '
+          label: '        Resume         '
         }
       ]);
 
@@ -105,15 +105,21 @@
             scaling: {
               label: {
                 enabled: true,
-                min: 100,
-                max: 200
+                min: 200,
+                max: 300
               },
-              min: 200,
-              max: 400
+              min: 400,
+              max: 600
             },
             shape: 'circle',
             width: 2,
-            length: 500
+            length: 500,
+            physics: {
+              scaling: {
+                min: 10,
+                max: 100
+              }
+            }
           },
           about: {
             color: {
