@@ -24,35 +24,59 @@
         {
           id: 1,
           group: 'avery',
-          label: 'Avery Lieu'
+          label: 'Avery Lieu',
+          color: {
+            background: 'transparent'
+          }
         }, {
           id: 2,
           group: 'about',
-          label: 'About'
+          label: 'About',
+          color: {
+            background: '#ec1b5a'
+          }
         }, {
           id: 3,
           group: 'workExperience',
-          label: 'Work Experience'
+          label: 'Work Experience',
+          color: {
+            background: '#79aefe'
+          }
         }, {
           id: 4,
           group: 'projects',
-          label: 'Projects'
+          label: 'Projects',
+          color: {
+            background: '#314190'
+          }
         }, {
           id: 5,
           group: 'skills',
-          label: 'Skills & Certificates'
+          label: 'Skills & Certificates',
+          color: {
+            background: '#279636'
+          }
         }, {
           id: 6,
           group: 'education',
-          label: 'Education'
+          label: 'Education',
+          color: {
+            background: '#7d5d81'
+          }
         }, {
           id: 7,
           group: 'contact',
-          label: 'Contact'
+          label: 'Contact',
+          color: {
+            background: '#ead24c'
+          }
         }, {
           id: 8,
           group: 'resume',
-          label: 'Resume'
+          label: 'Resume',
+          color: {
+            background: '#2d2366'
+          }
         }
       ]);
 
@@ -90,49 +114,9 @@
         nodes: nodes,
         edges: edges
       };
+
+      var groups = []
       var options = {
-        groups: {
-          avery: {
-            color: {
-              background: 'transparent'
-            }
-          },
-          about: {
-            color: {
-              background: '#ec1b5a'
-            }
-          },
-          workExperience: {
-            color: {
-              background: '#79aefe'
-            }
-          },
-          projects: {
-            color: {
-              background: '#314190'
-            }
-          },
-          skills: {
-            color: {
-              background: '#279636'
-            }
-          },
-          education: {
-            color: {
-              background: '#7d5d81'
-            }
-          },
-          contact: {
-            color: {
-              background: '#ead24c'
-            }
-          },
-          resume: {
-            color: {
-              background: '#2d2366'
-            }
-          }
-        },
         autoResize: true,
         height: '100%',
         width: '100%' locale: 'en',
