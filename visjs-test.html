@@ -9,7 +9,7 @@
     <style type="text/css">
       #mynetwork {
         width: 100vw;
-        height: 110vh;
+        height: 100vh;
         border: 0;
         margin: 0;
         padding: 0;
@@ -93,65 +93,12 @@
         edges: edges
       };
 
-      var groups = []
       var options = {
         groups: {
           avery: {
-            value: 200,
             color: {
-              background: '#efe2ba'
-            },
-            borderWidth: 0,
-            scaling: {
-              label: {
-                enabled: true,
-                min: 200,
-                max: 200
-              },
-              min: 100,
-              max: 100
-            },
-            shape: 'circle'
-          },
-          about: {
-            value: 100,
-            color: {
-              background: '#ec1b5a'
-            },
-            borderWidth: 0,
-            scaling: {
-              label: {
-                enabled: true,
-                min: 100,
-                max: 100
-              },
-              min: 100,
-              max: 100
-            },
-            shape: 'circle'
-          },
-          workExperience: {
-            color: {
-              background: '#79aefe'
-            },
-            borderWidth: 0,
-            scaling: {
-              label: {
-                enabled: true,
-                min: 100,
-                max: 100
-              },
-              min: 100,
-              max: 100
-            },
-            shape: 'circle',
-            width: 2,
-            length: 500
-          },
-          projects: {
-            value: 100,
-            color: {
-              background: '#314190',
+              background: '#efe2ba',
+              inherit: false,
               color: 'black'
             },
             borderWidth: 0,
@@ -159,78 +106,150 @@
               label: {
                 enabled: true,
                 min: 100,
+                max: 200
+              },
+              min: 200,
+              max: 400
+            },
+            shape: 'circle',
+            width: 2,
+            length: 500
+          },
+          about: {
+            color: {
+              background: '#ec1b5a',
+              inherit: false,
+              color: 'black'
+            },
+            borderWidth: 0,
+            scaling: {
+              label: {
+                enabled: true,
+                min: 48,
                 max: 100
               },
               min: 100,
-              max: 100
+              max: 300
             },
-            shape: 'circle'
+            shape: 'circle',
+            width: 2,
+            length: 500
+          },
+          workExperience: {
+            color: {
+              background: '#79aefe',
+              inherit: false,
+              color: 'black'
+            },
+            borderWidth: 0,
+            scaling: {
+              label: {
+                enabled: true,
+                min: 48,
+                max: 100
+              },
+              min: 100,
+              max: 300
+            },
+            shape: 'circle',
+            width: 2,
+            length: 500
+          },
+          projects: {
+            color: {
+              background: '#314190',
+              inherit: false,
+              color: 'black'
+            },
+            borderWidth: 0,
+            scaling: {
+              label: {
+                enabled: true,
+                min: 48,
+                max: 100
+              },
+              min: 100,
+              max: 300
+            },
+            shape: 'circle',
+            width: 2,
+            length: 500
           },
           skills: {
-            value: 100,
             color: {
-              background: '#279636'
+              background: '#279636',
+              inherit: false,
+              color: 'black'
             },
             borderWidth: 0,
             scaling: {
               label: {
                 enabled: true,
-                min: 100,
+                min: 48,
                 max: 100
               },
               min: 100,
-              max: 100
+              max: 300
             },
-            shape: 'circle'
+            shape: 'circle',
+            width: 2,
+            length: 500
           },
           education: {
-            value: 100,
             color: {
-              background: '#7d5d81'
+              background: '#7d5d81',
+              inherit: false,
+              color: 'black'
             },
             borderWidth: 0,
             scaling: {
               label: {
                 enabled: true,
-                min: 100,
+                min: 48,
                 max: 100
               },
               min: 100,
-              max: 100
+              max: 300
             },
-            shape: 'circle'
+            shape: 'circle',
+            width: 2,
+            length: 500
           },
           contact: {
-            value: 100,
             color: {
-              background: '#ead24c'
+              background: '#ead24c',
+              inherit: false,
+              color: 'black'
             },
             borderWidth: 0,
             scaling: {
               label: {
                 enabled: true,
-                min: 100,
+                min: 48,
                 max: 100
               },
               min: 100,
-              max: 100
+              max: 300
             },
-            shape: 'circle'
+            shape: 'circle',
+            width: 2,
+            length: 500
           },
           resume: {
-            value: 100,
             color: {
-              background: '#2d2366'
+              background: '#2d2366',
+              inherit: false,
+              color: 'black'
             },
             borderWidth: 0,
             scaling: {
               label: {
                 enabled: true,
-                min: 100,
+                min: 48,
                 max: 100
               },
               min: 100,
-              max: 100
+              max: 300
             },
             shape: 'circle',
             width: 2,
