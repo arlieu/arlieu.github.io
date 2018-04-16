@@ -160,6 +160,7 @@
               }
             },
             borderWidth: 0,
+            borderWidthSelected: 0,
             scaling: {
               label: {
                 enabled: true,
@@ -169,7 +170,10 @@
               min: 400,
               max: 600
             },
-            shape: 'circle'
+            shape: 'circle',
+            font: {
+              size: 24
+            }
           },
           about: {
             color: {
@@ -349,7 +353,14 @@
       network.on("selectNode", function (params) {
         if (params.nodes.length === 1) {
           var node = nodes.get(params.nodes[0]);
-          window.open(node.url, '_blank');
+          if (node.url.length > 0) {
+            window.open(node.url, '_blank');
+            node.setOptions({
+              color: {
+                background: '#efe2ba'
+              }
+            });
+          }
         }
       });
     </script>
