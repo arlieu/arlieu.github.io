@@ -157,6 +157,9 @@
               hover: {
                 border: '#efe2ba',
                 background: '#efe2ba'
+              },
+              highlight: {
+                background: '#efe2ba'
               }
             },
             borderWidth: 0,
@@ -172,7 +175,7 @@
             },
             shape: 'circle',
             font: {
-              size: 24
+              size: 32
             }
           },
           about: {
@@ -355,11 +358,6 @@
           var node = nodes.get(params.nodes[0]);
           if (node.url.length > 0) {
             window.open(node.url, '_blank');
-            node.setOptions({
-              color: {
-                background: '#efe2ba'
-              }
-            });
           }
         }
       });
