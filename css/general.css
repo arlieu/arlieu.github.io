@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+canvas {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+}
+
 .section-wrapper,
 .section-wrapper>div {
   height: 100%;
