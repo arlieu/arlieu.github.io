@@ -389,6 +389,6 @@ h1>a:visited {
   font-size: 18px;
 }
 
-#graph-row {
+.graph-row {
   height: 60vh;
 }
