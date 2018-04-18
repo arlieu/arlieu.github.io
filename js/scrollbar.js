@@ -7,7 +7,7 @@ $(document).ready(function() {
     loopTop: true,
 		verticalCentered: false,
 		scrollOverflow: true,
-		normalScrollElements: '.modal, .iframe-container',
+		normalScrollElements: '.modal, .iframe-container, #mynetwork',
 		navigation: true,
 		navigationToolTips: ['main', 'about', 'work experience', 'projects', 'skills and certificates', 'contact', 'resume']
   });
