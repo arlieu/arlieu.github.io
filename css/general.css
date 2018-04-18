@@ -126,6 +126,7 @@ h1>a:visited {
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 40vh;
 }
 
 .extra-space {
@@ -386,4 +387,8 @@ h1>a:visited {
 
 .box-bullet {
   font-size: 18px;
+}
+
+#graph-row {
+  height: 60vh;
 }
