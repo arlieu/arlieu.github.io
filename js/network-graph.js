@@ -7,37 +7,37 @@ var nodes = new vis.DataSet([
     id: 2,
     group: 'about',
     label: '          About          ',
-    url: 'https://arlieu.github.io/#secondPage'
+    url: 'secondPage'
   }, {
     id: 3,
     group: 'workExperience',
     label: '    Work Experience    ',
-    url: 'https://arlieu.github.io/#thirdPage'
+    url: 'thirdPage'
   }, {
     id: 4,
     group: 'projects',
     label: '        Projects         ',
-    url: 'https://arlieu.github.io/#fourthPage'
+    url: 'fourthPage'
   }, {
     id: 5,
     group: 'skills',
     label: ' Skills & Certificates ',
-    url: 'https://arlieu.github.io/#fifthPage'
+    url: 'fifthPage'
   }, {
     id: 6,
     group: 'education',
     label: '        Education        ',
-    url: 'https://arlieu.github.io/#sixthPage'
+    url: 'sixthPage'
   }, {
     id: 7,
     group: 'contact',
     label: '         Contact         ',
-    url: 'https://arlieu.github.io/#seventhPage'
+    url: 'seventhPage'
   }, {
     id: 8,
     group: 'resume',
     label: '         Resume          ',
-    url: 'https://arlieu.github.io/#lastPage'
+    url: 'lastPage'
   }
 ]);
 
@@ -333,7 +333,28 @@ network.on("selectNode", function (params) {
   if (params.nodes.length === 1) {
     var node = nodes.get(params.nodes[0]);
     if (node.url.length > 0) {
-      window.open(node.url, '_blank');
+      // window.open(node.url, '_blank');
+      if (node.url == "secondPage") {
+        $.fn.fullpage.moveTo('secondPage');
+      }
+      else if (node.url == "thirdPage") {
+        $.fn.fullpage.moveTo('thirdPage');
+      }
+      else if (node.url == "fourthPage") {
+        $.fn.fullpage.moveTo('fourthPage');
+      }
+      else if (node.url == "fifthPage") {
+        $.fn.fullpage.moveTo('fifthPage');
+      }
+      else if (node.url == "sixthPage") {
+        $.fn.fullpage.moveTo('sixthPage');
+      }
+      else if (node.url == "seventhPage") {
+        $.fn.fullpage.moveTo('seventhPage');
+      }
+      else if (node.url == "lastPage") {
+        $.fn.fullpage.moveTo('lastPage');
+      }
     }
   }
 });
