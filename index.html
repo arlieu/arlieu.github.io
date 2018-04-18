@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Avery Lieu // Data Engineer</title>
+    <meta name="description" content="Avery Lieu's portfolio/resume">
+    <meta name="author" content="Avery Lieu">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="icon" href="myFavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/general.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="overlay"></div>
+
+      <!-- Sidebar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="menu nav sidebar-nav">
+          <li class="sidebar-brand" data-menuanchor="firstPage">
+            <a href="#firstPage">
+              Avery Lieu
+            </a>
+          </li>
+          <li data-menuanchor="secondPage">
+            <a href="#secondPage">About</a>
+          </li>
+          <li data-menuanchor="thirdPage">
+            <a href="#thirdPage">Work Experience</a>
+          </li>
+          <li data-menuanchor="fourthPage">
+            <a href="#fourthPage">Projects</a>
+          </li>
+          <li data-menuanchor="fifthPage">
+            <a href="#fifthPage">Skills & Certificates</a>
+          </li>
+          <!-- <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Works <span class="caret"></span></a> <ul class="dropdown-menu" role="menu"> <li class="dropdown-header">Dropdown heading</li> <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li><a href="#">Separated link</a></li> <li><a href="#">One more separated link</a></li> </ul> </li> -->
+          <li data-menuanchor="sixthPage">
+            <a href="#sixthPage">Education</a>
+          </li>
+          <li data-menuanchor="seventhPage">
+            <a href="#seventhPage">Contact</a>
+          </li>
+          <li data-menuanchor="lastPage">
+            <a href="#lastPage">Resume</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+          <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+          <span class="hamb-bottom"></span>
+        </button>
+        <div id="fullpage">
+          <div id="main" class="section section-wrapper odd-section">
+            <div class="container title-container">
+              <div class="row title-row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="main-title" class="front-title">
+                    <a href="#firstPage" class="section-link">Avery Lieu</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row full-length">
+                <div id="mynetwork" class="graph-row"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="about" class="section section-wrapper even-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="about-title" class="section-title">
+                    <a href="#secondPage" class="section-link">About</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                  <div class="col-xs-12 box-title">
+                    <blockquote>
+                      <h3 class="highlight-text-title">Ambitious, goal-oriented, and articulate data engineer</h3>
+                    </blockquote>
+                  </div>
+                  <div class="col-xs-12 box-body">
+                    <p>
+                      Solving challenging problems, collaboration, and delivering value are just a few of the aspects that I love about being a software engineer. Ever since I created my created my first program, I've been awe-inspired as to what can be done through code,
+                      and that inspiration has continued to grow as I've progressed. From learning about data structures and algorithms, to launching a small ecommerce business, to creating microservices that coordinate to stream millions of users' data, I've continued to
+                      look for new learning and opportunities to progress and make an impact.
+                    </p>
+                    <p>
+                      I pride myself on being an ambitious, goal-oriented, and articulate data engineer. I have diversified experiences in both small and Fortune 500 companies. My stengths are at identifying business needs, formulating plans and designs, and delivering
+                      value. And I have experiencee with all phases of the software life cycle. Furthermore, I am a fast learner and very adaptive with new technologies, systems, and teams. I'm beyond excited for the opportunity to put my skills and experiences to use for
+                      an ambitious and high potential company.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="work-experience" class="section section-wrapper odd-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="work-experience-title" class="section-title">
+                    <a href="#thirdPage" class="section-link">
+                      Work Experience
+                    </a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="slide" data-anchor="slide1">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-8 box-title">
+                      <h2 id="capital-one-main" class="company-title">Capital One</h2>
+                    </div>
+                    <div class="col-xs-4 clearfix">
+                      <h3 class="box-date">September 2017 - Present</h3>
+                    </div>
+                    <div class="col-xs-12">
+                      <h3 id="capital-one-sub" class="job-title">Associate Data Engineer</h3>
+                    </div>
+                    <div class="col-xs-12"><hr class="box-divider"></div>
+                    <div class="col-xs-12 box-body">
+                      <ul>
+                        <li>
+                          <p class="box-bullet">Lead agile software release life cycles from requirements analysis to production. Coordinate efforts across teams via meetings, presentations, and demos to stakeholders.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Design, develop, and maintain microservices for collecting and reporting both real-time and batch data on delinquent credit card accounts. Services involve real-time data streaming, ETL, REST APIs, and decisioning logic.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Modernize legacy APIs and UIs. APIs converted to hosting in AWS and aligning to new business information requirements. UIs converted to SPAs for faster performance and microservice-based orientation.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide2">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-8">
+                      <h2 class="company-title">Private STEM Coaching</h2>
+                    </div>
+                    <div class="col-xs-4 clearfix">
+                      <h3 class="box-date">January 2017 - Present</h3>
+                    </div>
+                    <div class="col-xs-12">
+                      <h3 class="job-title">Founder and Owner</h3>
+                    </div>
+                    <div class="col-xs-12"><hr class="box-divider"></div>
+                    <div class="col-xs-12 box-body">
+                      <ul>
+                        <li>
+                          <p class="box-bullet">Founded a state-licensed online business venture. Created an ecommerce website to market coaches, initiate communications, and handle transactions.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Design, develop, and maintain microservices for collecting and reporting both real-time and batch data on delinquent credit card accounts. Services involve real-time data streaming, ETL, REST APIs, and decisioning logic.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Manage coaches and vet potential coaches. Ensure coaches meet professional standards. Address questions and concerns regarding coaches and by coaches.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide3">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-8">
+                      <h2 id="fidelity-main" class="company-title">Fidelity Investments</h2>
+                    </div>
+                    <div class="col-xs-4 clearfix">
+                      <h3 class="box-date">Summer 2016</h3>
+                    </div>
+                    <div class="col-xs-12">
+                      <h3 id="fidelity-sub" class="job-title">Software Engineering Intern</h3>
+                    </div>
+                    <div class="col-xs-12"><hr class="box-divider"></div>
+                    <div class="col-xs-12 box-body">
+                      <ul>
+                        <li>
+                          <p class="box-bullet">Developed UI for network data reporting. Features included exceptions reporting, data aggregation, and chart representation.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Introduced system to prevent email phishing. System filters malicious emails by matching IP addresses with Splunk and Project Honeypot databases.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide4">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-8">
+                      <h2 class="company-title">DCL Logistics</h2>
+                    </div>
+                    <div class="col-xs-4 clearfix">
+                      <h3 class="box-date">Summer 2015</h3>
+                    </div>
+                    <div class="col-xs-12">
+                      <h3 id="dcl-logistics-sub" class="job-title">Web Developer Intern</h3>
+                    </div>
+                    <div class="col-xs-12"><hr class="box-divider"></div>
+                    <div class="col-xs-12 box-body">
+                      <ul>
+                        <li>
+                          <p class="box-bullet">Designed and built a dynamic website documenting company’s eCommerce platforms. Website used to troubleshoot customer issues with company’s extensions and plugins.</p>
+                        </li>
+                        <li>
+                          <p class="box-bullet">Investigated annual department expenditures and organized findings into spending metrics. Provided briefings to senior management on expenses and cost saving solutions.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="projects" class="section section-wrapper even-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="project-title" class="section-title">
+                    <a href="#fourthPage" class="section-link">Projects</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="slide" data-anchor="slide1">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12">
+                      <h2>Private STEM Coaching</h2>
+                    </div>
+                    <div class="col-xs-12 iframe-container">
+                      <iframe src="https://pstemcoaching.com"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide2">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 ">
+                      <h2>Other Projects</h2>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 iframe-container">
+                      <div class="github-card" data-github="arlieu/interview-guide" data-width="100%" data-theme="default"></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 iframe-container">
+                      <div class="github-card" data-github="arlieu/design-template" data-width="100%" data-theme="default"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="skills" class="section section-wrapper odd-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="skills-title" class="section-title">
+                    <a href="#fifthPage" class="section-link">Skills & Certificates</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="slide" data-anchor="slide1">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Programming Languages</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12 equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/python.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/c-sharp.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/java.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/javascript.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/typescript.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/php.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Python</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">C#</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Java</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">JavaScript</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">TypeScript</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">PHP</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/cpp.png">
+                      </div>
+                      <div class="col-sm-10"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">C++</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide2">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Frameworks & CMSs</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/asp-net.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/asp-net-mvc.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/spring-boot.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/django.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/angular-4.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/j-unit.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">ASP.NET</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">ASP.NET MVC</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Spring Boot</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Django</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Angular 4</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">J Unit</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/n-unit.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/jasmine.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/wordpress.png">
+                      </div>
+                      <div class="col-sm-6"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">N Unit</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Jasmine</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Wordpress</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide3">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Databases</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/mysql.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/postgres.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/sql-server.png">
+                      </div>
+                      <div class="col-sm-6"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">MySQL</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">PostgreSQL</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">SQL Server</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide4">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Version Control</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/git.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/tfs.png">
+                      </div>
+                      <div class="col-sm-8"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Git</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">TFS</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide5">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Automation</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/docker.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/jenkins.png">
+                      </div>
+                      <div class="col-sm-8"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Docker</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Jenkins</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide6">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Operating Systems</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/windows-server.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/windows.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/debian.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/ubuntu.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/macos-sierra.png">
+                      </div>
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Windows Server</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Windows 7-10</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Debian</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Ubuntu</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">MacOS Sierra</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide7">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Development</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/jira.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/slack.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/sharepoint.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/skype.png">
+                      </div>
+                      <div class="col-sm-4"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Jira</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Slack</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Sharepoint</h4>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <h4 class="skill-label">Skype for Business</h4>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide" data-anchor="slide8">
+                  <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                    <div class="col-xs-12 box-title">
+                      <h2 class="skill-title">Certifications</h2>
+                      <hr class="box-divider">
+                    </div>
+                    <div class="col-xs-12  equal-height">
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <img class="skill-logo" src="content/aws-solutions-architect-associate.png">
+                      </div>
+                      <div class="col-sm-2 col-xs-4 logo-container">
+                        <a href="https://www.youracclaim.com/badges/0616546a-a8bd-4a05-8566-ca4506bbfc73/public_url" target="_blank">
+                          <img class="skill-logo" src="content/safe-4-certified-practitioner.png">
+                        </a>
+                      </div>
+                      <div class="col-sm-8"></div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <a href="#">
+                          <h4 class="skill-label">AWS Solutions Architect - Associate</h4>
+                        </a>
+                      </div>
+                      <div class="col-sm-2 col-xs-4 present-large">
+                        <a href="https://www.youracclaim.com/badges/0616546a-a8bd-4a05-8566-ca4506bbfc73/public_url" target="_blank">
+                          <h4 class="skill-label">SAFe Practitioner</h4>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <hr class="box-divider">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-8 col-xs-offset-2 extra-space"></div>
+              </div>
+            </div>
+          </div>
+          <div id="education" class="section section-wrapper even-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="education-title" class="section-title">
+                    <a href="#sixthPage" class="section-link">Education</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div id="education-box" class="col-md-6 col-md-offset-2 col-xs-10 col-xs-offset-1 box">
+                  <div class="col-xs-12">
+                    <h2 id="uva-title" class="company-title">University of Virginia</h2>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h3 id="uva-text" class="job-title">Charlottesville, VA | May 2017</h3>
+                      </div>
+                      <div class="col-xs-12 box-body">
+                        <h3>B.S. in Computer Engineering</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="education-logo-col" class="col-xs-4">
+                    <img class="education-logo" src="content/uva.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contact" class="section section-wrapper odd-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="contact-title" class="section-title">
+                    <a href="#seventhPage" class="section-link">Contact</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 col-md-offset-2 col-xs-10 col-xs-offset-1 box form-box">
+                  <form class="contact-box-content" action="https://formspree.io/avelieu@gmail.com" method="post">
+                    <div class="form-row">
+                      <div class="form-group col-sm-6 col-xs-12">
+                        <label for="first-name">First Name</label>
+                        <input name="first-name" type="text" class="form-control" id="first-name" placeholder="First Name">
+                      </div>
+                      <div class="form-group col-sm-6 col-xs-12">
+                        <label for="last-name">Last Name</label>
+                        <input name="last-name" type="text" class="form-control" id="last-name" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-xs-12">
+                        <label for="email">Email</label>
+                        <input name="_replyto" type="email" class="form-control" id="email" placeholder="example@example.com">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-xs-12">
+                        <label for="subject">Subject</label>
+                        <input name="_subject" type="text" class="form-control" id="subject" placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-xs-12">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-xs-12">
+                          <input id="spam-trap" type="text" name="_gotcha">
+                          <input type="hidden" name="_next" value="https://arlieu.github.io">
+                          <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 box right-box equal-height connect-box-content">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h2>Connect With Me</h2>
+                    </div>
+                  </div>
+                  <div class="mobile-clearfix"></div>
+                  <div id="connect-body">
+                    <div class="row connect-row">
+                      <a href="https://github.com/arlieu" target="_blank">
+                        <div class="col-xs-4">
+                          <img class="connect-logo" src="content/github.png">
+                        </div>
+                        <div class="col-xs-8 social-label-col">
+                          <h4 class="social-label">github.com/arlieu</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="row connect-row">
+                      <a href="https://linkedin.com/in/avery-lieu" target="_blank">
+                        <div class="col-xs-4">
+                          <img class="connect-logo" src="content/linkedin.png">
+                        </div>
+                        <div class="col-xs-8 social-label-col">
+                          <h4 class="social-label">linkedin.com/in/avery-lieu</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="row connect-row">
+                      <a href="mailto:avelieu@gmail.com" target="_blank">
+                        <div class="col-xs-4">
+                          <img class="connect-logo" src="content/mail.png">
+                        </div>
+                        <div class="col-xs-8 social-label-col">
+                          <h4 class="social-label">avelieu@gmail.com</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="extra-space"></div>
+            </div>
+          </div>
+
+          <div id="resume" class="section section-wrapper even-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                  <h1 id="resume-title" class="section-title">
+                    <a href="#lastPage" class="section-link">Resume</a>
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 box resume-box">
+                  <div class="col-xs-12 box-body">
+                    <embed id="resume-pdf" src="content/ResumeAveryLieu.pdf" width="100%"/>
+                    <div id="resume-button-container" class="col-xs-12">
+                      <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary modal-btn">
+                        Expand View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#page-content-wrapper -->
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <embed src="content/ResumeAveryLieu.pdf" width="100%" height="600px;"/>
+        </div>
+      </div>
+    </div>
+    <!-- /#wrapper -->
+    <script src="js/scrollbar.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/network-graph.js"></script>
+    <script src="js/util.js"></script>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  </body>
+
+</html>

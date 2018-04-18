@@ -1,0 +1,404 @@
+html,
+body {
+  height: 100%;
+}
+
+canvas, canvas:focus, canvas:hover {
+  outline: 0 !important;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+  -webkit-appearance: none;
+}
+
+.section-wrapper,
+.section-wrapper>div {
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.odd-section {
+  background-color: #f0f0f0;
+}
+
+.even-section {
+  background-color: #c4e6ed;
+}
+
+.front-title {
+  font-size: 96px;
+  font-family: 'Arvo', serif;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.custom-clearfix {
+  margin-bottom: 20px;
+}
+
+h1>a,
+h1>a:active,
+h1>a:hover,
+h1>a:focus,
+h1>a:visited {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+#about-title {
+  color: #ec1b5a
+}
+
+#work-experience-title {
+  color: #79aefe;
+}
+
+#project-title {
+  color: #314190;
+}
+
+#skills-title {
+  color: #279636;
+}
+
+#education-title {
+  color: #7d5d81;
+}
+
+#contact-title {
+  color: #ead24c;
+}
+
+#resume-title {
+  color: #2d2366;
+}
+
+#resume-pdf {
+  height: 50vh;
+}
+
+#resume-button-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-row {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 40vh;
+}
+
+.full-length {
+  width: 100%;
+}
+
+.extra-space {
+  margin-bottom: 50px;
+}
+
+.form-box {
+  background-color: #ffffff;
+  border-left: 5px #3498db solid;
+}
+
+.connect-row {
+  margin-top: 20px;
+}
+
+.contact-box-content {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.connect-box-content {
+  padding-bottom: 20px;
+}
+
+.social-label,
+.social-label-col {
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.social-label {
+  text-align: left;
+  font-size: 16px;
+}
+
+@media(min-width: 992px) {
+  .right-box {
+    margin-left: 10px;
+  }
+  .connect-logo {
+    object-fit: contain;
+    max-width: 75%;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media(max-width: 991px) {
+  .connect-logo {
+    object-fit: contain;
+    max-width: 40%;
+    min-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  p.box-bullet {
+    font-size: 14px;
+  }
+}
+
+.modal-btn {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+.equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-shadow: 2px 0px 1px rgba(0, 0, 0, .2), -2px 0px 1px rgba(0, 0, 0, .2), 0px 2px 1px rgba(0, 0, 0, .2), 0px -2px 1px rgba(0, 0, 0, .2);
+  background-color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-title {
+  font-size: 30px;
+}
+
+.box-sub-title {
+  font-size: 18px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+
+.box-date {
+  font-size: 20px;
+  float: right;
+}
+
+.box-body {
+  margin-bottom: 15px;
+}
+
+.company-title {
+  font-weight: bold;
+}
+
+.job-title {
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.box-content {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#capital-one-main {
+  color: #004879;
+}
+
+#capital-one-sub {
+  color: #d22e1e;
+}
+
+#fidelity-main {
+  color: #006044;
+}
+
+#fidelity-sub {
+  color: #AF8A49;
+}
+
+#uva-title {
+  color: #d2781e;
+}
+
+#uva-text {
+  color: #000099;
+}
+
+#dcl-logistics-sub {
+  color: #488BC5;
+}
+
+.highlight-text-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.box-body>p {
+  font-size: 18px;
+}
+
+.logo-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-logo {
+  object-fit: contain;
+  max-width: 75%;
+  min-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.education-logo {
+  object-fit: contain;
+  max-width: 75%;
+  min-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+.skill-label {
+  text-align: center;
+}
+
+#education-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#education-logo-col {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.iframe-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 60vh;
+}
+
+.iframe-container>iframe {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.box-body>p {
+  overflow-wrap: break-word;
+}
+
+.box-title>blockquote {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #F5F5F5;
+  border-left: 5px solid #000;
+}
+
+.box-divider {
+  border-top: 1px solid #777;
+  margin-bottom: 30px;
+}
+
+#connect-body {
+  background-color: #E8E8E8;
+  padding-bottom: 10px;
+}
+
+.resume-box {
+  padding-top: 30px;
+}
+
+#spam-trap {
+  display: none;
+}
+
+@media(max-width: 767px) {
+  .mobile-clearfix {
+    display: block;
+    clear: both;
+  }
+  .present-large {
+    display: none;
+  }
+  .skill-logo {
+    max-width: 50%;
+    min-width: 50%;
+  }
+  .education-logo {
+    max-width: 100%;
+    min-width: 100%;
+    padding-bottom: 30px;
+  }
+}
+
+.box-bullet {
+  font-size: 18px;
+}
+
+.graph-row {
+  height: 60vh;
+}
